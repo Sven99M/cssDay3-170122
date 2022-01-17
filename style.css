@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.2em;
+}
+
+.container {
+    width: 30%;
+    border: black solid 1px;
+    padding: 5px;
+}
+
+.headline {
+    border-bottom: black 15px solid;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.serving {
+    line-height: 0.2em;
+}
+
+.littletxt {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 0.4em;
+}
+
+.amount {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: black 1px solid;
+}
+
+#secrow {
+    margin-left: 120px;
+}
+
+.subheadline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opacity {
+    border-bottom: rgba(0, 0, 0, 0.5) 1px solid;
+    width: 90%;
+    margin-left: 40px;
+}
+
+.subheadline #secrow {
+    margin-left: 220px;
+}
+
+.subsub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subsub #secrow {
+    margin-left: 150px;
+}
