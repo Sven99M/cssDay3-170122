@@ -1,6 +1,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 0.2em;
+    padding: 0;
+    border: 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+hr {
+    margin: 0;
 }
 
 .container {
@@ -14,27 +24,25 @@ body {
 }
 
 h1 {
-    margin-bottom: 40px;
+    margin-bottom: 20;
 }
 
 .serving {
-    line-height: 0.2em;
+    line-height: 0.5em;
 }
 
 .littletxt {
     display: flex;
     justify-content: flex-end;
     line-height: 0.4em;
+    margin-bottom: 0;
 }
 
-.amount {
+.amount small b {
     display: flex;
     justify-content: space-between;
     border-bottom: black 1px solid;
-}
-
-#secrow {
-    margin-left: 120px;
+    margin-top: 0;
 }
 
 .subheadline {
@@ -44,19 +52,159 @@ h1 {
 
 .opacity {
     border-bottom: rgba(0, 0, 0, 0.5) 1px solid;
-    width: 90%;
-    margin-left: 40px;
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.noopacity {
+    border-bottom: black 1px solid;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#secrow {
+    margin-left: 150px;
 }
 
 .subheadline #secrow {
+    margin-left: 230px;
+}
+
+.subheadline #secrow2 {
+    margin-left: 200px;
+}
+
+.subsub #secrow3 {
+    margin-left: 150px;
+}
+
+#secrow4 {
+    margin-left: 170px;
+}
+
+#secrow5 {
+    margin-left: 190px;
+}
+
+#secrow6 {
+    margin-left: 100px;
+}
+
+#secrow7 {
+    margin-left: 155px;
+}
+
+#secrow8 {
     margin-left: 220px;
+}
+
+#secrow9 {
+    margin-left: 220px;
+}
+
+#secrow10 {
+    margin-left: 240px;
+}
+
+#secrow11 {
+    margin-left: 260px;
 }
 
 .subsub {
     display: flex;
     justify-content: space-between;
+    margin-left: 20px;
+}
+
+.aftersub {
+    border: black 5px solid;
 }
 
 .subsub #secrow {
     margin-left: 150px;
+}
+
+#daily {
+    border-bottom: black 1px solid;
+}
+
+.infotxt {
+    line-height: 1em;
+}
+
+.calories small {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 120px;
+}
+
+.calorieslist small {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.calorieslistleft small {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.calorieslistlast small {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    align-items: center;
+}
+
+#less1 {
+    margin-left: 10px;
+}
+
+#gram1 {
+    margin-right: 25px;
+}
+
+#less2 {
+    margin-right: 40px;
+}
+
+#gram2 {
+    margin-right: 65px;
+}
+
+#sfat {
+    margin-right: 40px;
+}
+
+#less3 {
+    margin-left: 5px;
+}
+
+#gram3 {
+    margin-left: 10px;
+}
+
+#less4 {
+    margin-left: 50px;
+}
+
+#gram4 {
+    margin-left: 30px;
+}
+
+#gram5 {
+    margin-left: 50px;
+}
+
+#gram6 {
+    margin-left: 55px;
+}
+
+#gram7 {
+    margin-right: 42px;
 }
